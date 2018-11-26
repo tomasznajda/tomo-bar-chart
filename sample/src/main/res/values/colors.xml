@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#2196F3</color>
+    <color name="primaryDark">#1976D2</color>
+    <color name="accent">#03A9F4</color>
+    <color name="text">#FFFFFF</color>
+
+    <color name="pink">#C2185B</color>
+    <color name="purple">#512DA8</color>
+    <color name="green">#4CAF50</color>
+    <color name="amber">#FFC107</color>
+    <color name="orange">#FF5722</color>
+    <color name="brown">#795548</color>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+            android:fontFamily="@font/poppins_bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:gravity="center"
+            android:text="Tomo BarChart"
+            android:textSize="20dp"
+            android:textColor="@color/primaryDark"/>
+
+    <CheckBox
+            android:id="@+id/boxSelectable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="selectable"
+            android:checked="true"
+            android:padding="16dp"/>
+
+    <CheckBox
+            android:id="@+id/boxCustomFonts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="custom fonts"
+            android:checked="true"
+            android:padding="16dp"/>
+
+    <CheckBox
+            android:id="@+id/boxImageLabels"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="image lables"
+            android:padding="16dp"/>
+
+    <CheckBox
+            android:id="@+id/boxRandomizeColors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="randomize colors"
+            android:padding="16dp"/>
+
+    <com.tomasznajda.tomobarchart.TomoBarChart
+            android:id="@+id/chart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:selectable="true"
+            app:textColor="@android:color/darker_gray"
+            app:primaryFontFamily="@font/poppins_medium"
+            app:secondaryFontFamily="@font/poppins_bold"/>
+
+</LinearLayout>
